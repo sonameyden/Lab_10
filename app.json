@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "CST Tasks",
+    "slug": "cst-tasks",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "bt.edu.cst.tasks",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#FFF8F0",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "bt.edu.cst.tasks"
+    },
+    "plugins": [
+      "expo-status-bar"
+    ]
+  }
+}
